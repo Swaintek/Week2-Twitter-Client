@@ -7,64 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8534A1631D0F576F00155A4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8534A1621D0F576F00155A4B /* AppDelegate.swift */; };
-		8534A1651D0F576F00155A4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8534A1641D0F576F00155A4B /* ViewController.swift */; };
-		8534A1681D0F576F00155A4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8534A1661D0F576F00155A4B /* Main.storyboard */; };
-		8534A16A1D0F576F00155A4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8534A1691D0F576F00155A4B /* Assets.xcassets */; };
-		8534A16D1D0F576F00155A4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8534A16B1D0F576F00155A4B /* LaunchScreen.storyboard */; };
-		8534A1781D0F577000155A4B /* PianoBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8534A1771D0F577000155A4B /* PianoBarTests.swift */; };
-		8534A1831D0F577000155A4B /* PianoBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8534A1821D0F577000155A4B /* PianoBarUITests.swift */; };
+		8534A1A01D0F5B6500155A4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8534A19F1D0F5B6500155A4B /* AppDelegate.swift */; };
+		8534A1A21D0F5B6500155A4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8534A1A11D0F5B6500155A4B /* ViewController.swift */; };
+		8534A1A51D0F5B6500155A4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8534A1A31D0F5B6500155A4B /* Main.storyboard */; };
+		8534A1A71D0F5B6500155A4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8534A1A61D0F5B6500155A4B /* Assets.xcassets */; };
+		8534A1AA1D0F5B6500155A4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8534A1A81D0F5B6500155A4B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8534A1741D0F577000155A4B /* PBXContainerItemProxy */ = {
+		8534A1B11D0F5B6500155A4B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8534A1571D0F576F00155A4B /* Project object */;
+			containerPortal = 8534A1941D0F5B6500155A4B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8534A15E1D0F576F00155A4B;
+			remoteGlobalIDString = 8534A19B1D0F5B6500155A4B;
 			remoteInfo = PianoBar;
 		};
-		8534A17F1D0F577000155A4B /* PBXContainerItemProxy */ = {
+		8534A1BC1D0F5B6500155A4B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8534A1571D0F576F00155A4B /* Project object */;
+			containerPortal = 8534A1941D0F5B6500155A4B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8534A15E1D0F576F00155A4B;
+			remoteGlobalIDString = 8534A19B1D0F5B6500155A4B;
 			remoteInfo = PianoBar;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8534A15F1D0F576F00155A4B /* PianoBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianoBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		8534A1621D0F576F00155A4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8534A1641D0F576F00155A4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8534A1671D0F576F00155A4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8534A1691D0F576F00155A4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8534A16C1D0F576F00155A4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		8534A16E1D0F576F00155A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8534A1731D0F577000155A4B /* PianoBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PianoBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8534A1771D0F577000155A4B /* PianoBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoBarTests.swift; sourceTree = "<group>"; };
-		8534A1791D0F577000155A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8534A17E1D0F577000155A4B /* PianoBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PianoBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8534A1821D0F577000155A4B /* PianoBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PianoBarUITests.swift; sourceTree = "<group>"; };
-		8534A1841D0F577000155A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8534A19C1D0F5B6500155A4B /* PianoBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianoBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8534A19F1D0F5B6500155A4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8534A1A11D0F5B6500155A4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8534A1A41D0F5B6500155A4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8534A1A61D0F5B6500155A4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8534A1A91D0F5B6500155A4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8534A1AB1D0F5B6500155A4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8534A1B01D0F5B6500155A4B /* PianoBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PianoBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8534A1BB1D0F5B6500155A4B /* PianoBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PianoBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8534A15C1D0F576F00155A4B /* Frameworks */ = {
+		8534A1991D0F5B6500155A4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8534A1701D0F577000155A4B /* Frameworks */ = {
+		8534A1AD1D0F5B6500155A4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8534A17B1D0F577000155A4B /* Frameworks */ = {
+		8534A1B81D0F5B6500155A4B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,77 +68,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8534A1561D0F576F00155A4B = {
+		8534A1931D0F5B6500155A4B = {
 			isa = PBXGroup;
 			children = (
-				8534A1611D0F576F00155A4B /* PianoBar */,
-				8534A1761D0F577000155A4B /* PianoBarTests */,
-				8534A1811D0F577000155A4B /* PianoBarUITests */,
-				8534A1601D0F576F00155A4B /* Products */,
+				8534A19E1D0F5B6500155A4B /* PianoBar */,
+				8534A19D1D0F5B6500155A4B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8534A1601D0F576F00155A4B /* Products */ = {
+		8534A19D1D0F5B6500155A4B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8534A15F1D0F576F00155A4B /* PianoBar.app */,
-				8534A1731D0F577000155A4B /* PianoBarTests.xctest */,
-				8534A17E1D0F577000155A4B /* PianoBarUITests.xctest */,
+				8534A19C1D0F5B6500155A4B /* PianoBar.app */,
+				8534A1B01D0F5B6500155A4B /* PianoBarTests.xctest */,
+				8534A1BB1D0F5B6500155A4B /* PianoBarUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8534A1611D0F576F00155A4B /* PianoBar */ = {
+		8534A19E1D0F5B6500155A4B /* PianoBar */ = {
 			isa = PBXGroup;
 			children = (
-				8534A1901D0F58CE00155A4B /* App Global */,
-				8534A1911D0F599900155A4B /* Controller */,
-				8534A1921D0F59C600155A4B /* View */,
+				8534A1CD1D0F5B9200155A4B /* App Global */,
+				8534A1CE1D0F5C0B00155A4B /* Controller */,
+				8534A1CF1D0F5C2100155A4B /* View */,
 			);
 			path = PianoBar;
 			sourceTree = "<group>";
 		};
-		8534A1761D0F577000155A4B /* PianoBarTests */ = {
+		8534A1CD1D0F5B9200155A4B /* App Global */ = {
 			isa = PBXGroup;
 			children = (
-				8534A1771D0F577000155A4B /* PianoBarTests.swift */,
-				8534A1791D0F577000155A4B /* Info.plist */,
-			);
-			path = PianoBarTests;
-			sourceTree = "<group>";
-		};
-		8534A1811D0F577000155A4B /* PianoBarUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8534A1821D0F577000155A4B /* PianoBarUITests.swift */,
-				8534A1841D0F577000155A4B /* Info.plist */,
-			);
-			path = PianoBarUITests;
-			sourceTree = "<group>";
-		};
-		8534A1901D0F58CE00155A4B /* App Global */ = {
-			isa = PBXGroup;
-			children = (
-				8534A1621D0F576F00155A4B /* AppDelegate.swift */,
-				8534A16E1D0F576F00155A4B /* Info.plist */,
+				8534A19F1D0F5B6500155A4B /* AppDelegate.swift */,
+				8534A1AB1D0F5B6500155A4B /* Info.plist */,
 			);
 			name = "App Global";
 			sourceTree = "<group>";
 		};
-		8534A1911D0F599900155A4B /* Controller */ = {
+		8534A1CE1D0F5C0B00155A4B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8534A1641D0F576F00155A4B /* ViewController.swift */,
+				8534A1A11D0F5B6500155A4B /* ViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
 		};
-		8534A1921D0F59C600155A4B /* View */ = {
+		8534A1CF1D0F5C2100155A4B /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8534A1691D0F576F00155A4B /* Assets.xcassets */,
-				8534A16B1D0F576F00155A4B /* LaunchScreen.storyboard */,
-				8534A1661D0F576F00155A4B /* Main.storyboard */,
+				8534A1A61D0F5B6500155A4B /* Assets.xcassets */,
+				8534A1A81D0F5B6500155A4B /* LaunchScreen.storyboard */,
+				8534A1A31D0F5B6500155A4B /* Main.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -152,13 +126,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8534A15E1D0F576F00155A4B /* PianoBar */ = {
+		8534A19B1D0F5B6500155A4B /* PianoBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8534A1871D0F577000155A4B /* Build configuration list for PBXNativeTarget "PianoBar" */;
+			buildConfigurationList = 8534A1C41D0F5B6500155A4B /* Build configuration list for PBXNativeTarget "PianoBar" */;
 			buildPhases = (
-				8534A15B1D0F576F00155A4B /* Sources */,
-				8534A15C1D0F576F00155A4B /* Frameworks */,
-				8534A15D1D0F576F00155A4B /* Resources */,
+				8534A1981D0F5B6500155A4B /* Sources */,
+				8534A1991D0F5B6500155A4B /* Frameworks */,
+				8534A19A1D0F5B6500155A4B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -166,69 +140,69 @@
 			);
 			name = PianoBar;
 			productName = PianoBar;
-			productReference = 8534A15F1D0F576F00155A4B /* PianoBar.app */;
+			productReference = 8534A19C1D0F5B6500155A4B /* PianoBar.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8534A1721D0F577000155A4B /* PianoBarTests */ = {
+		8534A1AF1D0F5B6500155A4B /* PianoBarTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8534A18A1D0F577000155A4B /* Build configuration list for PBXNativeTarget "PianoBarTests" */;
+			buildConfigurationList = 8534A1C71D0F5B6500155A4B /* Build configuration list for PBXNativeTarget "PianoBarTests" */;
 			buildPhases = (
-				8534A16F1D0F577000155A4B /* Sources */,
-				8534A1701D0F577000155A4B /* Frameworks */,
-				8534A1711D0F577000155A4B /* Resources */,
+				8534A1AC1D0F5B6500155A4B /* Sources */,
+				8534A1AD1D0F5B6500155A4B /* Frameworks */,
+				8534A1AE1D0F5B6500155A4B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8534A1751D0F577000155A4B /* PBXTargetDependency */,
+				8534A1B21D0F5B6500155A4B /* PBXTargetDependency */,
 			);
 			name = PianoBarTests;
 			productName = PianoBarTests;
-			productReference = 8534A1731D0F577000155A4B /* PianoBarTests.xctest */;
+			productReference = 8534A1B01D0F5B6500155A4B /* PianoBarTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8534A17D1D0F577000155A4B /* PianoBarUITests */ = {
+		8534A1BA1D0F5B6500155A4B /* PianoBarUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8534A18D1D0F577000155A4B /* Build configuration list for PBXNativeTarget "PianoBarUITests" */;
+			buildConfigurationList = 8534A1CA1D0F5B6500155A4B /* Build configuration list for PBXNativeTarget "PianoBarUITests" */;
 			buildPhases = (
-				8534A17A1D0F577000155A4B /* Sources */,
-				8534A17B1D0F577000155A4B /* Frameworks */,
-				8534A17C1D0F577000155A4B /* Resources */,
+				8534A1B71D0F5B6500155A4B /* Sources */,
+				8534A1B81D0F5B6500155A4B /* Frameworks */,
+				8534A1B91D0F5B6500155A4B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8534A1801D0F577000155A4B /* PBXTargetDependency */,
+				8534A1BD1D0F5B6500155A4B /* PBXTargetDependency */,
 			);
 			name = PianoBarUITests;
 			productName = PianoBarUITests;
-			productReference = 8534A17E1D0F577000155A4B /* PianoBarUITests.xctest */;
+			productReference = 8534A1BB1D0F5B6500155A4B /* PianoBarUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8534A1571D0F576F00155A4B /* Project object */ = {
+		8534A1941D0F5B6500155A4B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "David Swaintek";
 				TargetAttributes = {
-					8534A15E1D0F576F00155A4B = {
+					8534A19B1D0F5B6500155A4B = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
-					8534A1721D0F577000155A4B = {
+					8534A1AF1D0F5B6500155A4B = {
 						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 8534A15E1D0F576F00155A4B;
+						TestTargetID = 8534A19B1D0F5B6500155A4B;
 					};
-					8534A17D1D0F577000155A4B = {
+					8534A1BA1D0F5B6500155A4B = {
 						CreatedOnToolsVersion = 7.3.1;
-						TestTargetID = 8534A15E1D0F576F00155A4B;
+						TestTargetID = 8534A19B1D0F5B6500155A4B;
 					};
 				};
 			};
-			buildConfigurationList = 8534A15A1D0F576F00155A4B /* Build configuration list for PBXProject "PianoBar" */;
+			buildConfigurationList = 8534A1971D0F5B6500155A4B /* Build configuration list for PBXProject "PianoBar" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -236,37 +210,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 8534A1561D0F576F00155A4B;
-			productRefGroup = 8534A1601D0F576F00155A4B /* Products */;
+			mainGroup = 8534A1931D0F5B6500155A4B;
+			productRefGroup = 8534A19D1D0F5B6500155A4B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8534A15E1D0F576F00155A4B /* PianoBar */,
-				8534A1721D0F577000155A4B /* PianoBarTests */,
-				8534A17D1D0F577000155A4B /* PianoBarUITests */,
+				8534A19B1D0F5B6500155A4B /* PianoBar */,
+				8534A1AF1D0F5B6500155A4B /* PianoBarTests */,
+				8534A1BA1D0F5B6500155A4B /* PianoBarUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8534A15D1D0F576F00155A4B /* Resources */ = {
+		8534A19A1D0F5B6500155A4B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8534A16D1D0F576F00155A4B /* LaunchScreen.storyboard in Resources */,
-				8534A16A1D0F576F00155A4B /* Assets.xcassets in Resources */,
-				8534A1681D0F576F00155A4B /* Main.storyboard in Resources */,
+				8534A1AA1D0F5B6500155A4B /* LaunchScreen.storyboard in Resources */,
+				8534A1A71D0F5B6500155A4B /* Assets.xcassets in Resources */,
+				8534A1A51D0F5B6500155A4B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8534A1711D0F577000155A4B /* Resources */ = {
+		8534A1AE1D0F5B6500155A4B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8534A17C1D0F577000155A4B /* Resources */ = {
+		8534A1B91D0F5B6500155A4B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -276,59 +250,57 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8534A15B1D0F576F00155A4B /* Sources */ = {
+		8534A1981D0F5B6500155A4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8534A1651D0F576F00155A4B /* ViewController.swift in Sources */,
-				8534A1631D0F576F00155A4B /* AppDelegate.swift in Sources */,
+				8534A1A21D0F5B6500155A4B /* ViewController.swift in Sources */,
+				8534A1A01D0F5B6500155A4B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8534A16F1D0F577000155A4B /* Sources */ = {
+		8534A1AC1D0F5B6500155A4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8534A1781D0F577000155A4B /* PianoBarTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8534A17A1D0F577000155A4B /* Sources */ = {
+		8534A1B71D0F5B6500155A4B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8534A1831D0F577000155A4B /* PianoBarUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8534A1751D0F577000155A4B /* PBXTargetDependency */ = {
+		8534A1B21D0F5B6500155A4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8534A15E1D0F576F00155A4B /* PianoBar */;
-			targetProxy = 8534A1741D0F577000155A4B /* PBXContainerItemProxy */;
+			target = 8534A19B1D0F5B6500155A4B /* PianoBar */;
+			targetProxy = 8534A1B11D0F5B6500155A4B /* PBXContainerItemProxy */;
 		};
-		8534A1801D0F577000155A4B /* PBXTargetDependency */ = {
+		8534A1BD1D0F5B6500155A4B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8534A15E1D0F576F00155A4B /* PianoBar */;
-			targetProxy = 8534A17F1D0F577000155A4B /* PBXContainerItemProxy */;
+			target = 8534A19B1D0F5B6500155A4B /* PianoBar */;
+			targetProxy = 8534A1BC1D0F5B6500155A4B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8534A1661D0F576F00155A4B /* Main.storyboard */ = {
+		8534A1A31D0F5B6500155A4B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8534A1671D0F576F00155A4B /* Base */,
+				8534A1A41D0F5B6500155A4B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		8534A16B1D0F576F00155A4B /* LaunchScreen.storyboard */ = {
+		8534A1A81D0F5B6500155A4B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				8534A16C1D0F576F00155A4B /* Base */,
+				8534A1A91D0F5B6500155A4B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -336,7 +308,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		8534A1851D0F577000155A4B /* Debug */ = {
+		8534A1C21D0F5B6500155A4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -382,7 +354,7 @@
 			};
 			name = Debug;
 		};
-		8534A1861D0F577000155A4B /* Release */ = {
+		8534A1C31D0F5B6500155A4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -421,7 +393,7 @@
 			};
 			name = Release;
 		};
-		8534A1881D0F577000155A4B /* Debug */ = {
+		8534A1C51D0F5B6500155A4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -432,7 +404,7 @@
 			};
 			name = Debug;
 		};
-		8534A1891D0F577000155A4B /* Release */ = {
+		8534A1C61D0F5B6500155A4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -443,7 +415,7 @@
 			};
 			name = Release;
 		};
-		8534A18B1D0F577000155A4B /* Debug */ = {
+		8534A1C81D0F5B6500155A4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -455,7 +427,7 @@
 			};
 			name = Debug;
 		};
-		8534A18C1D0F577000155A4B /* Release */ = {
+		8534A1C91D0F5B6500155A4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -467,7 +439,7 @@
 			};
 			name = Release;
 		};
-		8534A18E1D0F577000155A4B /* Debug */ = {
+		8534A1CB1D0F5B6500155A4B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = PianoBarUITests/Info.plist;
@@ -478,7 +450,7 @@
 			};
 			name = Debug;
 		};
-		8534A18F1D0F577000155A4B /* Release */ = {
+		8534A1CC1D0F5B6500155A4B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = PianoBarUITests/Info.plist;
@@ -492,40 +464,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8534A15A1D0F576F00155A4B /* Build configuration list for PBXProject "PianoBar" */ = {
+		8534A1971D0F5B6500155A4B /* Build configuration list for PBXProject "PianoBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8534A1851D0F577000155A4B /* Debug */,
-				8534A1861D0F577000155A4B /* Release */,
+				8534A1C21D0F5B6500155A4B /* Debug */,
+				8534A1C31D0F5B6500155A4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8534A1871D0F577000155A4B /* Build configuration list for PBXNativeTarget "PianoBar" */ = {
+		8534A1C41D0F5B6500155A4B /* Build configuration list for PBXNativeTarget "PianoBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8534A1881D0F577000155A4B /* Debug */,
-				8534A1891D0F577000155A4B /* Release */,
+				8534A1C51D0F5B6500155A4B /* Debug */,
+				8534A1C61D0F5B6500155A4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		8534A18A1D0F577000155A4B /* Build configuration list for PBXNativeTarget "PianoBarTests" */ = {
+		8534A1C71D0F5B6500155A4B /* Build configuration list for PBXNativeTarget "PianoBarTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8534A18B1D0F577000155A4B /* Debug */,
-				8534A18C1D0F577000155A4B /* Release */,
+				8534A1C81D0F5B6500155A4B /* Debug */,
+				8534A1C91D0F5B6500155A4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		8534A18D1D0F577000155A4B /* Build configuration list for PBXNativeTarget "PianoBarUITests" */ = {
+		8534A1CA1D0F5B6500155A4B /* Build configuration list for PBXNativeTarget "PianoBarUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8534A18E1D0F577000155A4B /* Debug */,
-				8534A18F1D0F577000155A4B /* Release */,
+				8534A1CB1D0F5B6500155A4B /* Debug */,
+				8534A1CC1D0F5B6500155A4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8534A1571D0F576F00155A4B /* Project object */;
+	rootObject = 8534A1941D0F5B6500155A4B /* Project object */;
 }
