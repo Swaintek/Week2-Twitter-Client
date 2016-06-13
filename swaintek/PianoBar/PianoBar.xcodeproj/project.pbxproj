@@ -97,12 +97,9 @@
 		8534A1611D0F576F00155A4B /* PianoBar */ = {
 			isa = PBXGroup;
 			children = (
-				8534A1621D0F576F00155A4B /* AppDelegate.swift */,
-				8534A1641D0F576F00155A4B /* ViewController.swift */,
-				8534A1661D0F576F00155A4B /* Main.storyboard */,
-				8534A1691D0F576F00155A4B /* Assets.xcassets */,
-				8534A16B1D0F576F00155A4B /* LaunchScreen.storyboard */,
-				8534A16E1D0F576F00155A4B /* Info.plist */,
+				8534A1901D0F58CE00155A4B /* App Global */,
+				8534A1911D0F599900155A4B /* Controller */,
+				8534A1921D0F59C600155A4B /* View */,
 			);
 			path = PianoBar;
 			sourceTree = "<group>";
@@ -123,6 +120,33 @@
 				8534A1841D0F577000155A4B /* Info.plist */,
 			);
 			path = PianoBarUITests;
+			sourceTree = "<group>";
+		};
+		8534A1901D0F58CE00155A4B /* App Global */ = {
+			isa = PBXGroup;
+			children = (
+				8534A1621D0F576F00155A4B /* AppDelegate.swift */,
+				8534A16E1D0F576F00155A4B /* Info.plist */,
+			);
+			name = "App Global";
+			sourceTree = "<group>";
+		};
+		8534A1911D0F599900155A4B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8534A1641D0F576F00155A4B /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8534A1921D0F59C600155A4B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8534A1691D0F576F00155A4B /* Assets.xcassets */,
+				8534A16B1D0F576F00155A4B /* LaunchScreen.storyboard */,
+				8534A1661D0F576F00155A4B /* Main.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
