@@ -17,6 +17,7 @@
 		8534A1D61D0F5DDD00155A4B /* tweet.json in Resources */ = {isa = PBXBuildFile; fileRef = 8534A1D51D0F5DDD00155A4B /* tweet.json */; };
 		8534A1D81D0F61D300155A4B /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8534A1D71D0F61D300155A4B /* JSONParser.swift */; };
 		85ED83C01D121062005DD5DC /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85ED83BF1D121062005DD5DC /* API.swift */; };
+		85F717831D131DB4003A0534 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F717821D131DB4003A0534 /* Cache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		8534A1D51D0F5DDD00155A4B /* tweet.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tweet.json; sourceTree = "<group>"; };
 		8534A1D71D0F61D300155A4B /* JSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 		85ED83BF1D121062005DD5DC /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		85F717821D131DB4003A0534 /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				8534A19F1D0F5B6500155A4B /* AppDelegate.swift */,
 				8534A1AB1D0F5B6500155A4B /* Info.plist */,
 				8534A1D51D0F5DDD00155A4B /* tweet.json */,
+				85F717821D131DB4003A0534 /* Cache.swift */,
 			);
 			name = "App Global";
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85F717831D131DB4003A0534 /* Cache.swift in Sources */,
 				8534A1D31D0F5CB200155A4B /* User.swift in Sources */,
 				8534A1D81D0F61D300155A4B /* JSONParser.swift in Sources */,
 				8534A1D11D0F5C9700155A4B /* Tweet.swift in Sources */,
