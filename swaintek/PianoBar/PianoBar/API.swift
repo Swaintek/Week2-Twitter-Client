@@ -16,7 +16,7 @@ class API {
     
     var account: ACAccount?
     
-    private func login(completion: (account: ACAccount?) -> ())
+    func login(completion: (account: ACAccount?) -> ())
     {
         //Account Store
         let accountStore = ACAccountStore()
@@ -28,17 +28,18 @@ class API {
             completion: {(granted, error) -> Void in
                 
                 if let _ = error {
-                    print("ERROR: Request access to accounts returned an error.")
+                    print(error.localizedDescription)
                     completion(account: nil)
                     return
                 }
                 
                 if granted {
-                    if let account =
-                        accountStore.accountsWithAccountType(accountType).first as?
-                        ACAccount {
-                        completion(account: account)
-                        return
+                    if let accounts =
+                        accountStore.accountsWithAccountType(accountType).first as? ACAccount {
+                        dispatch_async (dispatch_get_main_queue(), {
+                            completion(account: accounts)
+                            return
+                        })
                     }
                     
                     //When no account is found
@@ -54,7 +55,7 @@ class API {
         })
     }
     
-    private func GETOAuthUser(completion: (user: User?) -> ()) {
+    func GETOAuthUser(completion: (user: User?) -> ()) {
         
         let request = SLRequest(forServiceType: SLServiceTypeTwitter,
                                 requestMethod: .GET, URL: NSURL(string: "https://api.twitter.com/1.1/account/verify_credentials.json"), parameters: nil)
@@ -130,18 +131,18 @@ class API {
         
         if let _ = self.account{
             self.updateTimeline(completion)
-        } else {
-            self.login({(account) in
+        }
+        
+        else {
+            self.login({ (account) in
                 if let account = account {
                     API.shared.account = account
                     self.updateTimeline(completion)
-                } else {
-                    print("Account is nil.")
                 }
+                
             })
         }
     }
-    
 }
 
 

@@ -21,12 +21,20 @@ class ViewController: UIViewController {
     override func viewDidLoad()
     {
         super.viewDidLoad()
+        self.setupTableView()
+        self.navigationItem.title = "Twitter"
     }
     
     override func viewWillAppear(animated: Bool)
     {
         super.viewWillAppear(animated)
         self.update()
+    }
+    
+    func setupTableView()
+    {
+        self.tableView.estimatedRowHeight = 100
+        self.tableView.rowHeight = UITableViewAutomaticDimension
     }
     
     func update(){

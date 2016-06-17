@@ -63,15 +63,6 @@ let imageTwo: NSString = "imageTwo"
 let imageThree: NSString = "imageThree"
 let imageFour: NSString = "imageFour"
 
-cache.write(imageOne.dataUsingEncoding(NSUTF8StringEncoding!, key: "imageOne"))
-cache.write(imageTwo.dataUsingEncoding(NSUTF8StringEncoding!, key: "imageTwo"))
-cache.write(imageThree.dataUsingEncoding(NSUTF8StringEncoding!, key: "imageThree"))
-cache.write(imageOne.dataUsingEncoding(NSUTF8StringEncoding!, key: "imageOne"))
-
-
-cache.print()
-
-
 
 
 
