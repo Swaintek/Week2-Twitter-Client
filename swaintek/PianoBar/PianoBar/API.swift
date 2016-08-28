@@ -40,12 +40,14 @@ class API {
                             completion(account: accounts)
                             return
                         })
-                    }
+                    } else {
+                    
                     
                     //When no account is found
                     print("ERROR: No twitter accounts were found on this device.")
                     completion(account: nil)
                     return
+                    }
                 }
                 
                 //If user does not grant access
