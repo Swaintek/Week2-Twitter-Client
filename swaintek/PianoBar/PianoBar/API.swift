@@ -145,6 +145,27 @@ class API {
             })
         }
     }
+    
+    func getUserTweets(username: String, completion: (tweets: [Tweet]?) -> ()){
+        
+        self.updateTimeline(completion)
+        
+    }
+    
+    func getImage(urlString: String, completion:(image: UIImage)->()){
+        
+        NSOperationQueue().addOperationWithBlock {
+            
+            guard let url = NSURL(string: urlString) else { return }
+            guard let data = NSData(contentsOfURL: url) else { return }
+            guard let image = UIImage(data: data) else { return }
+            
+            NSOperationQueue.mainQueue().addOperationWithBlock({
+                completion(image: image)
+            })
+        }
+        
+    }
 }
 
 

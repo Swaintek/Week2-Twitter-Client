@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85234BB71D73AB8A00F0AA67 /* UserTimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85234BB61D73AB8A00F0AA67 /* UserTimelineViewController.swift */; };
+		85234BB91D73ADDE00F0AA67 /* TweetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85234BB81D73ADDE00F0AA67 /* TweetCell.swift */; };
+		85234BBB1D73AFCE00F0AA67 /* TweetCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 85234BBA1D73AFCE00F0AA67 /* TweetCell.xib */; };
 		8534A1A01D0F5B6500155A4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8534A19F1D0F5B6500155A4B /* AppDelegate.swift */; };
 		8534A1A21D0F5B6500155A4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8534A1A11D0F5B6500155A4B /* ViewController.swift */; };
 		8534A1A51D0F5B6500155A4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8534A1A31D0F5B6500155A4B /* Main.storyboard */; };
@@ -41,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		85234BB61D73AB8A00F0AA67 /* UserTimelineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTimelineViewController.swift; sourceTree = "<group>"; };
+		85234BB81D73ADDE00F0AA67 /* TweetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TweetCell.swift; sourceTree = "<group>"; };
+		85234BBA1D73AFCE00F0AA67 /* TweetCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TweetCell.xib; sourceTree = "<group>"; };
 		8534A19C1D0F5B6500155A4B /* PianoBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PianoBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8534A19F1D0F5B6500155A4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8534A1A11D0F5B6500155A4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				85F717861D136181003A0534 /* DetailViewController.swift */,
+				85234BB61D73AB8A00F0AA67 /* UserTimelineViewController.swift */,
 				8534A1A11D0F5B6500155A4B /* ViewController.swift */,
 				85F7178A1D136EBC003A0534 /* ProfileViewController.swift */,
 			);
@@ -141,6 +148,7 @@
 		8534A1CF1D0F5C2100155A4B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				85234BBA1D73AFCE00F0AA67 /* TweetCell.xib */,
 				8534A1A61D0F5B6500155A4B /* Assets.xcassets */,
 				8534A1A81D0F5B6500155A4B /* LaunchScreen.storyboard */,
 				8534A1A31D0F5B6500155A4B /* Main.storyboard */,
@@ -152,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				8534A1D01D0F5C9700155A4B /* Tweet.swift */,
+				85234BB81D73ADDE00F0AA67 /* TweetCell.swift */,
 				8534A1D21D0F5CB200155A4B /* User.swift */,
 			);
 			name = Model;
@@ -271,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8534A1AA1D0F5B6500155A4B /* LaunchScreen.storyboard in Resources */,
+				85234BBB1D73AFCE00F0AA67 /* TweetCell.xib in Resources */,
 				8534A1A71D0F5B6500155A4B /* Assets.xcassets in Resources */,
 				8534A1A51D0F5B6500155A4B /* Main.storyboard in Resources */,
 				8534A1D61D0F5DDD00155A4B /* tweet.json in Resources */,
@@ -301,11 +311,13 @@
 				85F717831D131DB4003A0534 /* Cache.swift in Sources */,
 				85F717891D136965003A0534 /* Identity.swift in Sources */,
 				85F7178B1D136EBC003A0534 /* ProfileViewController.swift in Sources */,
+				85234BB91D73ADDE00F0AA67 /* TweetCell.swift in Sources */,
 				8534A1D31D0F5CB200155A4B /* User.swift in Sources */,
 				8534A1D81D0F61D300155A4B /* JSONParser.swift in Sources */,
 				8534A1D11D0F5C9700155A4B /* Tweet.swift in Sources */,
 				8534A1A21D0F5B6500155A4B /* ViewController.swift in Sources */,
 				85ED83C01D121062005DD5DC /* API.swift in Sources */,
+				85234BB71D73AB8A00F0AA67 /* UserTimelineViewController.swift in Sources */,
 				8534A1A01D0F5B6500155A4B /* AppDelegate.swift in Sources */,
 				85F717871D136181003A0534 /* DetailViewController.swift in Sources */,
 			);

@@ -56,13 +56,6 @@ class Cache<T: Hashable>
     }
 }
 
-let cache = Cache<NSData>(size: 3)
-
-let imageOne: NSString = "imageOne"
-let imageTwo: NSString = "imageTwo"
-let imageThree: NSString = "imageThree"
-let imageFour: NSString = "imageFour"
-
 
 
 
